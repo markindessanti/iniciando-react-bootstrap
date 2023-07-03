@@ -1,5 +1,6 @@
 import { Button, Container } from 'react-bootstrap';
 import NavBar from './components/CustomNavbar';
+import Carousel from './components/CustomCarousel';
 
 function App() {
 	return (
@@ -13,6 +14,10 @@ function App() {
 				</h1>
 				<p>Estudos de desevolvimento com React</p>
 				<Button variant='primary'>Enviar</Button>
+			</Container>
+
+			<Container fluid className='px-0'>
+				<Carousel />
 			</Container>
 		</div>
 	);
