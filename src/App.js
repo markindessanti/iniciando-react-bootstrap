@@ -1,6 +1,7 @@
-import { Button, Container } from 'react-bootstrap';
+import { Button, Container, Row } from 'react-bootstrap';
 import NavBar from './components/CustomNavbar';
 import Carousel from './components/CustomCarousel';
+import CardsProducts from './components/CardsProducts';
 
 function App() {
 	return (
@@ -8,7 +9,7 @@ function App() {
 			<header className="App-header">
 				<NavBar />
 			</header>
-			<Container>
+			<Container className='text-center mt-2 mb-3'>
 				<h1>
 					Meu Aplicativo
 				</h1>
@@ -16,8 +17,14 @@ function App() {
 				<Button variant='primary'>Enviar</Button>
 			</Container>
 
-			<Container fluid className='px-0'>
+			<Container fluid className='px-0 mb-3'>
 				<Carousel />
+			</Container>
+
+			<Container fluid>
+				<Row className='d-flex justify-content-around'>
+					<CardsProducts />
+				</Row>
 			</Container>
 		</div>
 	);
