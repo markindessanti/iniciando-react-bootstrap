@@ -3,6 +3,7 @@ import NavBar from './components/CustomNavbar';
 import Carousel from './components/CustomCarousel';
 import CardsProducts from './components/CardsProducts';
 import CardsDigimons from './components/CardsDigimons';
+import PageFooter from './components/PageFooter';
 
 function App() {
 	return (
@@ -35,6 +36,7 @@ function App() {
 					<CardsDigimons />
 				</Row>
 			</Container>
+			<PageFooter />
 		</div>
 	);
 }
