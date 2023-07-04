@@ -18,6 +18,21 @@ class CardsProducts extends Component {
 				image: "https://1619028l.ha.azioncdn.net/img/2023/04/produto/127609/sessao-do-studio-134-editar-editar.jpg?ims=fit-in/400x600/filters:fill(white)",
 				title: "Produto 3",
 				text: "Descrição do produto 3 para vermos a diferença de um para o outro."
+			},
+			{
+				image: "https://1619028l.ha.azioncdn.net/img/2023/04/produto/127851/conjunto-infantil-menino-moletom-tricolor-azul-marinho-3.jpg?ims=fit-in/400x600/filters:fill(white)",
+				title: "Produto 4",
+				text: "Descrição do produto 1 para vermos a diferença de um para o outro."
+			},
+			{
+				image: "https://1619028l.ha.azioncdn.net/img/2023/04/produto/127719/conjunto-infantil-menina-moletom-girl-marinho-1.jpg?ims=fit-in/400x600/filters:fill(white)",
+				title: "Produto 5",
+				text: "Descrição do produto 2 para vermos a diferença de um para o outro."
+			},
+			{
+				image: "https://1619028l.ha.azioncdn.net/img/2023/04/produto/127609/sessao-do-studio-134-editar-editar.jpg?ims=fit-in/400x600/filters:fill(white)",
+				title: "Produto 6",
+				text: "Descrição do produto 3 para vermos a diferença de um para o outro."
 			}
 		]
 	};
