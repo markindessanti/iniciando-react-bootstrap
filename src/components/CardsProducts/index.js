@@ -1,5 +1,5 @@
 import { Component } from 'react';
-import { Card, Button } from 'react-bootstrap';
+import { Card, Button, Col } from 'react-bootstrap';
 
 class CardsProducts extends Component {
 	state = {
@@ -40,18 +40,20 @@ class CardsProducts extends Component {
 	render() {
 		return (
 			<>
-			{
-				this.state.cards.map(card =>
-					<Card key={card.title} className='mb-3' style={{ width: '18rem' }}>
-						<Card.Img variant="top" src={card.image} />
-						<Card.Body>
-							<Card.Title>{card.title}</Card.Title>
-							<Card.Text>{card.text}</Card.Text>
-							<Button variant="primary">Go somewhere</Button>
-						</Card.Body>
-					</Card>
-				)
-			}
+				{
+					this.state.cards.map(card =>
+						<Col className='d-flex justify-content-center' sm={6} md={4} lg={3} xxl={2}>
+							<Card key={card.title} className='mb-3' style={{ width: '18rem' }}>
+								<Card.Img variant="top" src={card.image} />
+								<Card.Body>
+									<Card.Title>{card.title}</Card.Title>
+									<Card.Text>{card.text}</Card.Text>
+									<Button variant="primary">Go somewhere</Button>
+								</Card.Body>
+							</Card>
+						</Col>
+					)
+				}
 			</>
 		);
 	};

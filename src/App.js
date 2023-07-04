@@ -22,14 +22,14 @@ function App() {
 				<Carousel />
 			</Container>
 
-			<Container fluid>
+			<Container fluid={"sm"}>
 				<Row className="text-center mb-3"><h1>PRODUTOS</h1></Row>
 				<Row className='d-flex justify-content-around'>
 					<CardsProducts />
 				</Row>
 			</Container>
 
-			<Container fluid>
+			<Container fluid={"sm"}>
 				<Row className="text-center mb-3"><h1>DIGIMONS</h1></Row>
 				<Row className='d-flex justify-content-around'>
 					<CardsDigimons />
