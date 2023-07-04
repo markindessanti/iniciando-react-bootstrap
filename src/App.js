@@ -24,14 +24,14 @@ function App() {
 
 			<Container fluid={"sm"}>
 				<Row className="text-center mb-3"><h1>PRODUTOS</h1></Row>
-				<Row className='d-flex justify-content-around'>
+				<Row className='d-flex justify-content-left'>
 					<CardsProducts />
 				</Row>
 			</Container>
 
 			<Container fluid={"sm"}>
 				<Row className="text-center mb-3"><h1>DIGIMONS</h1></Row>
-				<Row className='d-flex justify-content-around'>
+				<Row className='d-flex justify-content-left'>
 					<CardsDigimons />
 				</Row>
 			</Container>
