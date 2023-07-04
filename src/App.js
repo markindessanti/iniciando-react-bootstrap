@@ -11,16 +11,17 @@ function App() {
 			<header className="App-header">
 				<NavBar />
 			</header>
+
+			<Container fluid className='px-0 mb-3'>
+				<Carousel />
+			</Container>
+
 			<Container className='text-center mt-2 mb-3'>
 				<h1>
 					Meu Aplicativo
 				</h1>
 				<p>Estudos de desevolvimento com React</p>
 				<Button variant='primary'>Enviar</Button>
-			</Container>
-
-			<Container fluid className='px-0 mb-3'>
-				<Carousel />
 			</Container>
 
 			<Container fluid={"sm"}>
@@ -36,6 +37,7 @@ function App() {
 					<CardsDigimons />
 				</Row>
 			</Container>
+			
 			<PageFooter />
 		</div>
 	);
