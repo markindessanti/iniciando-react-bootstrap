@@ -22,6 +22,7 @@ function App() {
 			</Container>
 
 			<Container fluid>
+				<Row className="text-center mb-3"><h1>PRODUTOS</h1></Row>
 				<Row className='d-flex justify-content-around'>
 					<CardsProducts />
 				</Row>
